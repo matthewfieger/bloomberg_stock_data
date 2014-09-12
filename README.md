@@ -16,7 +16,7 @@ http://www.bloomberg.com/markets/chart/data/1D/AAPL:US
 
 Documentation
 -------------
-To run this program, cd to you current directory and run "python main.py" like so:
+To run this program, cd to the right directory and run "python main.py" like so:
 
 ```bash
 Matthews-MacBook-Pro:stock_data matthewfieger$ python main.py
