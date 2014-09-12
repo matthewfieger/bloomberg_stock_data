@@ -12,7 +12,7 @@ Bloomberg API
 - Time is returned in UNIX milliseconds.  Use the following function in Excel to convert to Excel seconds:
 
 ```
-(((A1/1000/60)/60)/24)+DATE(1970,1,1)+(-5/24)
+=(((A1/1000/60)/60)/24)+DATE(1970,1,1)+(-5/24)
 ```
 
 For example, if we want today's prices for Apple, we could send the following request:
