@@ -10,7 +10,6 @@ with open('./tickers/' + exchange + '.csv', 'rb') as tickers:
 	reader = csv.reader(tickers)
 	for row in reader:
 		ticker = row[0]
-        # Include sybmols in symbols.txt, separated by \n
 		myfile = open("./prices/" + exchange + "/" + ticker +".txt", "w+")
 		myfile.close()
 		
