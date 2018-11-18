@@ -24,6 +24,6 @@ Documentation
 To run this program, cd to the right directory and run "python main.py" like so:
 
 ```bash
-Matthews-MacBook-Pro:stock_data matthewfieger$ python main.py
+$ python main.py
 ```
-You can scrape data for all stocks listed on a single exchange or you can input a custom list of stocks in "custom.csv".  I haven't encountered any need to throttle requests to this Bloomberg endpoint, so you should be able to scrape to your heart's delight!
+You can scrape data for all stocks listed on a single exchange or you can input a custom list of stocks in "custom.csv".  I haven't encountered any need to throttle requests to this Bloomberg endpoint.
